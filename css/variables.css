@@ -1,0 +1,24 @@
+:root {
+    --primary-color: #fff6e7;
+    --black-color: #170102;
+}
+
+main {
+    font-family: 'DM Serif Text', serif;
+    font-family: 'Krub', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /* el overflow: hidden se usa para q no se pueda hacer scroll 
+    a los costados y respete el ancho que pusimos, en este caso al expendir 
+    las imagenes a los costados si agregamos esta propiedad va a cortar lo 
+    restante */
+    overflow: hidden;
+}
+
+.fuente-serif {
+    font-family: 'Krub', sans-serif;
+    font-weight: 900;
+}
+
+.text-serif {
+    font-family: 'DM Serif Text', serif;
+}
